@@ -5,8 +5,8 @@ def test_visitar_aseguradora_de_motor_gestion_poliza(page: Page):
     print("Given user visit homepage")
     page.goto("https://bdeo.io/")
 
-    print("When user accept cookies")
-    page.get_by_role("button", name="Aceptar cookies").click()
+   # print("When user accept cookies")
+   # page.get_by_role("button", name="Aceptar cookies").click()
 
     print("When user click aseguradora de motor")
     page.locator("#slb-21290").click()
@@ -22,8 +22,8 @@ def test_visitar_aseguradora_de_motor_gestion_siniestro(page: Page):
     print("Given user visit homepage")
     page.goto("https://bdeo.io/")
 
-    print("When user accept cookies")
-    page.get_by_role("button", name="Aceptar cookies").click()
+   # print("When user accept cookies")
+   # page.get_by_role("button", name="Aceptar cookies").click()
 
     print("When user click aseguradora de motor")
     page.locator("#slb-21290").click()
