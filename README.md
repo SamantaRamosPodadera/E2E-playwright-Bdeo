@@ -4,7 +4,7 @@ Template to create a **Playwright** project with **Python** for end-to-end testi
 
 ## Description
 
-This project performs E2E tests on the [Bootcamp QA](https://bootcampqa.com) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
+This project performs E2E tests on the [Bdeo](https://bdeo.io/) website, generating a report of results and video recordings. Tests are executed on **Chrome** (desktop).
 
 ## Technologies
 
@@ -15,7 +15,7 @@ This project performs E2E tests on the [Bootcamp QA](https://bootcampqa.com) web
 
 You can view the test status using the following **GitHub Actions** badge:
 
-![Test Workflow](https://github.com/Bootcamp-QA/playwright-python-template/actions/workflows/playwright_tests.yml/badge.svg)
+![Test Workflow](https://github.com/SamantaRamosPodadera/E2E-playwright-Bdeo/actions/workflows/playwright_tests.yml/badge.svg)
 
 ## Requirements
 
@@ -29,9 +29,12 @@ You can view the test status using the following **GitHub Actions** badge:
 Once Python is installed, clone this repository and navigate to the project folder. Then, install the necessary dependencies by running the following command in the terminal:
 
 pip install -r requirements.txt
-playwright install
+python -m playwright install
 
 
 ### Run tests in local
 To run the tests locally in visible mode, use the following command in the terminal:
-pytest --headed
+python -m pytest --headed
+
+#Record a new test
+python -m playwright codegen https://bdeo.io
