@@ -3,7 +3,11 @@ import re
 
 def test_visitar_aseguradora_de_motor_gestion_poliza(page: Page):
     print("Given user visit homepage")
-    page.goto("https://bdeo.io/")
+    page.goto("https://bdeo.io/en/")
+    
+    print("Given user change language to spanish")
+    page.locator("#slb-44991").hover()
+    page.locator("#navbar").get_by_text("Español").click()
 
    # print("When user accept cookies")
    # page.get_by_role("button", name="Aceptar cookies").click()
@@ -20,7 +24,11 @@ def test_visitar_aseguradora_de_motor_gestion_poliza(page: Page):
 
 def test_visitar_aseguradora_de_motor_gestion_siniestro(page: Page):
     print("Given user visit homepage")
-    page.goto("https://bdeo.io/")
+    page.goto("https://bdeo.io/en/")
+    
+    print("Given user change language to spanish")
+    page.locator("#slb-44991").hover()
+    page.locator("#navbar").get_by_text("Español").click()
 
    # print("When user accept cookies")
    # page.get_by_role("button", name="Aceptar cookies").click()
