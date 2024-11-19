@@ -40,4 +40,4 @@ To run the tests locally in visible mode, use the following command in the termi
 python -m pytest --headed
 
 #Record a new test
-python -m playwright codegen https://bdeo.io
+python -m playwright codegen https://bdeo.io/en/
