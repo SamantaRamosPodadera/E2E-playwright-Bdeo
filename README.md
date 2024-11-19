@@ -17,6 +17,9 @@ You can view the test status using the following **GitHub Actions** badge:
 
 ![Test Workflow](https://github.com/SamantaRamosPodadera/E2E-playwright-Bdeo/actions/workflows/playwright_tests.yml/badge.svg)
 
+## Error Report
+[Error Report](/reports/bugreport.pdf)
+
 ## Requirements
 
 ### Python Installation
